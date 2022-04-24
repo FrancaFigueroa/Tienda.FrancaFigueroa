@@ -22,6 +22,7 @@ body{
     "footer footer footer footer footer";
 }
 
+
 header{
     grid-area: nav;
     display: flex;
@@ -48,6 +49,27 @@ nav a:hover{
     color: palevioletred;
 }
 
+.animacion{
+    display: flex;
+    text-align: center;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    animation-name: animacion;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
+
+@keyframes animacion{
+    0%{
+        color: palevioletred;
+        font-size: 32px;
+    }
+    30%{
+        background-image: linear-gradient(to top, white, yellow);
+    }
+}
 
 /*IMAGENES HOME*/
 
