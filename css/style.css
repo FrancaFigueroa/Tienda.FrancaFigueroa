@@ -22,6 +22,21 @@ body{
     "footer footer footer footer footer";
 }
 
+main{
+    grid-area: main;
+}
+
+.gridMain{
+    display: grid;
+    grid-template-areas: 
+    "animacion animacion animacion animacion animacion"
+    "imagenuno imagendos imagentres imagencuatro imagencinco"
+    "lista lista lista lista lista"
+    display flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 
 header{
     grid-area: nav;
